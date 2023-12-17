@@ -1,0 +1,51 @@
+/* ---------------------Players CSS-------------------------- */
+.players {
+    width: 100%;
+    padding: 50px 5%;
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 6.66%;
+    row-gap: 20px;
+}
+
+.player {
+    width: 20%;
+    height: 400px;
+    /* background-color: red; */
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+}
+
+.overlay {
+    width: 100%;
+    height: 75%;
+    background-color: black;
+    position: absolute;
+    opacity: 0;
+    transition: 0.3s;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.overlay:hover {
+    opacity: 0.5;
+}
+
+.poster {
+    width: 100%;
+}
+
+.details {
+    width: 100%;
+    height: 50%;
+    /* background-color: blue; */
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    font-size: 10px;
+}
+
